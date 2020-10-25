@@ -58,6 +58,9 @@ public class LogicaSudoku {
 				cont++;
 				}
 			}
+			if(cont != tablero.length - 1) {
+				solucionValida = false;
+			}
 			
 			buffer.close();
 			
