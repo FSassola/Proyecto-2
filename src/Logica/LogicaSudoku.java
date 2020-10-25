@@ -55,10 +55,10 @@ public class LogicaSudoku {
 							}
 						}
 					}
-				cont++;
 				}
+				cont++;
 			}
-			if(cont != tablero.length - 1) {
+			if(cont != cantFilas) {
 				solucionValida = false;
 			}
 			
